@@ -13,3 +13,9 @@
     justify-content: space-between;
     padding: 20px 0;
  }
+
+ .btn{
+    border-radius: 40px;
+    font-size: 11px;
+ }
+
