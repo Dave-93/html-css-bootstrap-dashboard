@@ -5,7 +5,7 @@
 
  main{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
  }
 
  section {
@@ -14,12 +14,21 @@
     padding: 20px 0;
  }
 
+ .icon{
+   display: flex;
+   column-gap: 3px;
+ }
+
  .btn{
-    border-radius: 40px;
-    font-size: 11px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 9px;
+ }
+
+ .btn-primary{
+   font-size: 14px;
  }
 
  .btn-outline-secondary{
    border-radius: 5px;
  }
- 
