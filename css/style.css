@@ -3,12 +3,9 @@
     padding-right: 10px;
 }
 
- main{
+ #row {
     margin: 0 auto;
     width: 90%;
- }
-
- section {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
@@ -16,7 +13,7 @@
 
  .icon{
    display: flex;
-   column-gap: 3px;
+   /* column-gap: 3px; */
  }
 
  .btn{
@@ -32,3 +29,8 @@
  .btn-outline-secondary{
    border-radius: 5px;
  }
+
+ .todo{
+   display: flex;
+   flex-direction: column;
+}
