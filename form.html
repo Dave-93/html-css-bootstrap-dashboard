@@ -62,10 +62,10 @@
             </div>
             <!-- More info -->
             <div class="row px-0 pb-4 border-bottom border-secondary">
-                <div class="col col-12 col-md-4">
+                <div class="col col-12 col-md-4"><!-- essendo bootstrap mobile first l'eccezione bisogna metterla sulla versione desk e quindi da colonna singola diventa tripla aumentando la grandezza -->
                     <h5>Genere</h5>
                     <select name="genere" class="form-control" required>
-                        <option value="">Scegli il genere</option>
+                        <option value="" hidden>Scegli il genere</option><!-- aggiungendo l'attributo hidden posso evitare che venga riselezionato dopo aver scelto un valore desiderato tornando ad avere il campo vuoto -->
                         <option value="opt1">Fantasy</option>
                         <option value="opt1">Horror</option>
                         <option value="opt1">Classici</option>
