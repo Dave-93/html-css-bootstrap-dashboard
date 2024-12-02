@@ -26,7 +26,7 @@
    font-size: 14px;
  }
 
- .btn-outline-secondary{
+ .btn-outline-secondary, input, select, textarea{
    border-radius: 5px;
  }
 
